@@ -16,6 +16,8 @@
     "permissions": [
         "webRequest",
         "webRequestBlocking",
-        "*://*.mbga.jp/"
-    ]
+        "*://*.mbga.jp/",
+        "storage"
+    ],
+    "options_page": "options.html"
 }

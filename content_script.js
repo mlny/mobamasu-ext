@@ -26,14 +26,14 @@ function show_toolbar() {
         createButton("進む", () => {
             history.forward()
         }),
-        createButton("マイスタジオ", () => {
+        createButton("ｽﾀｼﾞｵ", () => {
             const rand = ("000000000" + Math.floor(Math.random() * 1000000000)).slice(-9)
             location.href = "http://sp.pf.mbga.jp/12008305/?guid=ON&url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmypage%3Fl_frm%3DTop_2%26rnd%3D"+rand
         }),
-        createButton("リロード", () => {
+        createButton("ﾘﾛｰﾄﾞ", () => {
             location.reload()
         }),
-        createButton("メニュー", () => {
+        createButton("ﾒﾆｭｰ", () => {
             document.getElementById("headerAcd").click()
         })
     ]
